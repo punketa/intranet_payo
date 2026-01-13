@@ -24,8 +24,13 @@ if (!isset($_SESSION['user'])) {
         <img src="img/payologo.png" class="logo" alt="UniPayo Logo">
         <h2 class="title">Ongietorri <?php echo htmlspecialchars($_SESSION['user']); ?> !! 🔥🔥 </h2>
 
-        <a class="btn link-btn" href="https://glpi.payo.eus" target="_blank">🔧 Zabaldu GLPI</a>
-        <a class="btn link-btn" href="https://www.payo.eus" target="_blank">🌍 Uni Payo Web orria</a>
+        <a class="btn link-btn" href="https://glpi.payo.eus" target="_blank">🔧 Inzidentziak kudeatzeko: GLPI</a>
+        <a class="btn link-btn" href="https://drive.google.com/file/d/1gIUz4is5KTiWreYuiaxabtXaXe24GEOK/view?usp=sharing" target="_blank">📄 LOPD</a>
+        <a class="btn link-btn" href="https://docs.google.com/document/d/1OPkIuRlaudQRtpPJo6m09oOvSq1sBi4s/edit?usp=sharing&ouid=102424984956665303722&rtpof=true&sd=true" target="_blank">📄 Kontingentzia-Plana</a>
+        <a class="btn link-btn" href="https://drive.google.com/file/d/1BKek_SRCEtCmvb499pZ3lmxYO5d3MxET/view?usp=sharing" target="_blank">📄 Jasangarritasun-Plana</a>
+        <a class="btn link-btn" href="https://uni.payo.eus" target="_blank">🌍 Uni Payo Web orria</a>
+        <a class="btn link-btn" href="https://jitsi.payo.eus" target="_blank">🖥️ Jitsi</a>
+        <a class="btn link-btn" href="https://jitsi.payo.eus" target="_blank">🎈 PfSense</a>
         <a class="btn link-btn-red" href="php/logout/index.php">🚪 Itxi saioa</a>
     </div>
 
